@@ -11,6 +11,7 @@ Redirectors
 
 1. Input redirector (<)
 2. Output redirector (>)
+3. Output Appender ( >> )
 
 script - Input from a file / output to a file
 

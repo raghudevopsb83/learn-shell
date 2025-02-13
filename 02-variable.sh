@@ -11,4 +11,7 @@ a=10
 
 echo $a
 
+# Variable or Functions naming.
+# We can use characters a-z, A-Z
+# We can use numbers and Underscore
 

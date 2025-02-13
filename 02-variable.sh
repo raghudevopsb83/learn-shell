@@ -34,8 +34,17 @@ echo x1 - $x1
 # x2=200 script
 echo x2 - $x2
 
-# 2. RHS
+# the above two approaches we need to exclusively declare variable names and their data.
+# In case if we just pass the value but some variable should be assigned automatically then RHS is the approach
+
+# 3. RHS
 # script 300
+# Here variables will be assigned automatically based on positioning
+# variable 1 - 300, can be accessed by $1
+
+echo First argument - $1
+
+
 
 
 

@@ -37,7 +37,7 @@ example1() {
 y=200 example1
 
 example2() {
-  First Argument - $1
+  echo First Argument - $1
 }
 
 example2 300

@@ -6,8 +6,12 @@ What is a script ?
 
 Shell script will execute the commands from top to bottom, However the lines with start with # character will not get executed, those are treated as comments.
 
-We are going to learn Bash Shell scripting
 
-Following are the topics.
+Redirectors 
+
+1. Input redirector (<)
+2. Output redirector (>)
+
+script - Input from a file / output to a file
 
 

@@ -24,14 +24,14 @@ echo $a
 #   LHS               script          RHS
 
 
-# 1. Envrionment variables
+# 1. Environment variables
 # export var=data
 
 # on command line you run export x1=100 before executing this script
 echo x1 - $x1
 
 # 2. LHS
-# x2=200 script
+# x2=200 y=200 script
 echo x2 - $x2
 
 # the above two approaches we need to exclusively declare variable names and their data.

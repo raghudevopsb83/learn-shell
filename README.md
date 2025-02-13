@@ -13,6 +13,9 @@ Redirectors
 2. Output redirector (>)
 3. Output Appender ( >> )
 
+# Output can comprise both output and error, if we want both(out & err) to the same file then &> will be used 
+
+
 script - Input from a file / output to a file
 
 

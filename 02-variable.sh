@@ -45,6 +45,25 @@ echo x2 - $x2
 echo First argument - $1
 
 
+# Dynamically Variables
+# 1. command substitution
+# syntax: var=$(command)
+
+DATE=$(date)
+
+echo Date - $DATE
+
+
+# 2. Arithmetic substitution
+# syntax: var=$(( arithmetic expression))
+
+ADD=$((2+4))
+
+echo add of 2+4 is - $ADD
+
+
+
+
 
 
 

@@ -7,7 +7,7 @@ What is a script ?
 Shell script will execute the commands from top to bottom, However the lines with start with # character will not get executed, those are treated as comments.
 
 
-Redirectors 
+### Redirectors 
 
 1. Input redirector (<)
 2. Output redirector (>)
@@ -17,5 +17,14 @@ Redirectors
 
 
 script - Input from a file / output to a file
+
+### Exit Status
+
+Exit status is a number which is returned by a command after execution.
+It ranges from 0-255 
+whereas zero is successful
+whereas non-zero is partial success / partial failure / complete failure, this depends on command you are using.
+
+To access this value we use `echo $?` after command execution.
 
 
